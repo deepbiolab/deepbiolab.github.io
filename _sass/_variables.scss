@@ -19,6 +19,11 @@ $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
+
+$custom_color1: #904af2 !default; // custom color 1
+$custom_color2: #686df3 !default; // custom color 2
+$custom_color3: #ffe5d9 !default; // custom color 3
+
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;

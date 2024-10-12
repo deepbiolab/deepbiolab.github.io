@@ -2,6 +2,18 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+:root {
+  --global-font-family: "Helvetica Neue","Helvetica", "Roboto", sans-serif; /* 你可以选择其他字体，如 "Montserrat", sans-serif */
+}
+
+body {
+  font-family: var(--global-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 // Typography
 
 p,
@@ -517,7 +529,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
