@@ -147,10 +147,10 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: deepbiolab/deepbiolab # <your-github-user-name>/<your-github-repo-name>
-  repo_id: R_kgDOL7QxPg # leave empty or specify your repo_id (see https://giscus.app/)
+  repo: deepbiolab/deepbiolab.github.io # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOM-8AQQ # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: DIC_kwDOL7QxPs4CjUzI # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: DIC_kwDOM-8AQc4CjU6L # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
