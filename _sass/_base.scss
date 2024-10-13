@@ -531,6 +531,9 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
     font-size: 3rem;
   }
+  h2 {
+    font-size: 24px !important;
+  }
 }
 
 .tag-category-list {
@@ -580,6 +583,11 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+    }
+    h3 {
+      a {
+        font-size: 24px; /* 仅针对 h3 下的 a 修改字体大小 */
+      }
     }
 
     a {
@@ -1077,6 +1085,10 @@ nav[data-toggle="toc"] {
   a {
     color: var(--global-text-color-light);
     text-decoration: none;
+
+    h3 {
+      font-size: 24px; /* 仅针对 h3 下的 a 修改字体大小 */
+    }
 
     .card-text {
       overflow: hidden;

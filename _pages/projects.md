@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Learning & Testing Ideas via Code
-nav: true
+nav: false
 nav_order: 3
 display_categories: [Papers, Engineering, Techniques, Prototypes]
 horizontal: false
