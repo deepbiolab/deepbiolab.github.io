@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A Post with Tabs
-date: 2024-05-01 00:32:13
+title: A Post with Tabs Replicate
+date: 2024-10-14 19:00:13 +0800
 description: this is what included tabs in a post could look like
-tags: formatting code
-categories: sample-posts
+tags: language-model
+categories: ai
 tabs: true
 ---
 
