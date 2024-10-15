@@ -1,157 +1,168 @@
 {
   "basics": {
-    "name": "Xiangtian(Tim) Lin",
+    "name": "Tim Lin",
     "label": "AI Researcher",
     "image": "",
-    "email": "lin_xiangtian@outlook.com",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "lin_xiangtian@deepbiolab.ai",
+    "phone": "",
+    "url": "https://deepbiolab.ai",
+    "summary": "An AI researcher and independent developer with expertise in deep learning, bioprocess modeling, and antibody sequence generation. Passionate about advancing science through the development of cutting-edge AI solutions and committed to building platforms - DeepBioLab to solve and share biological and technical problems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Shanghai",
+      "countryCode": "PR. China",
+      "region": ""
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "TimXTLin",
+        "url": "https://x.com/TimXTLin"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "WuXi Biologics (Cayman) Inc.",
+      "position": "Artificial Intelligence Research Senior Manager",
+      "url": "https://www.wuxibiologics.com",
+      "startDate": "2021-05-01",
+      "endDate": "2024-08-01",
+      "summary": "Led AI research efforts in the Digital Innovation Department, transforming the drug discovery, development, and manufacturing processes through AI technologies.",
+      "highlights": [
+        "Partnered with AI Scientists and internal Business Units to realize AI-enable protein drug discovery and development",
+        "Proposed innovative solutions to business challenges using AI and cutting-edge technologies",
+        "Facilitated cross-department collaborations to accelerate the drug discovery and development process"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Shanghai Longpean Information Technology Co., Ltd.",
+      "position": "Data Team Leader",
+      "url": "",
+      "startDate": "2019-10-01",
+      "endDate": "2020-12-01",
+      "summary": "Led the data team to optimize internal systems using NLP and machine learning, improving customer experience and business process efficiency.",
+      "highlights": [
+        "Communicated with business departments to define goals and implement analysis and prediction models",
+        "Developed solutions using NLP and machine learning to improve ERP system performance",
+        "Managed data analysis tasks and the data team"
+      ]
+    },
+    {
+      "name": "Hefei Jishu Technology Co., Ltd.",
+      "position": "Data Analyst",
+      "url": "https://www.mgbig.com/",
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
+      "summary": "Worked on AI research in the chemical field, collaborating on data management and implementing machine learning models for medical research.",
+      "highlights": [
+        "Provided AI experimental research code and contributed to efficient development",
+        "Collaborated on database management and data collection schemes",
+        "Applied machine learning models to explore scenarios in medical research"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "North Arizona University",
+      "location": "Arizona, USA",
+      "url": "https://nau.edu/",
+      "area": "Computer Information Technology",
+      "studyType": "Master",
+      "startDate": "2021",
+      "endDate": "2023",
       "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "courses": ["Information Systems", "Machine Learning", "Data Analysis"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Hefei University of Technology",
+      "location": "Hefei, China",
+      "url": "http://international.hfut.edu.cn/en/About_/About_HFUT.htm",
+      "area": "Pharmaceutical Engineering",
+      "studyType": "Undergraduate",
+      "startDate": "2011",
+      "endDate": "2015",
+      "score": "10",
+      "courses": ["Physical Chemistry", "Biochemistry", "Organic Chemistry", "C++"]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "AbDPP: Target-oriented antibody design with pretraining and prior biological structure knowledge",
+      "publisher": "Proteins",
+      "releaseDate": "2024-03-05",
+      "url": "https://doi.org/10.1002/prot.26676",
+      "summary": "This study presents AbDPP, a novel approach for target-oriented antibody design that integrates pretraining and prior biological structure knowledge. The methodology significantly enhances antibody design accuracy, leveraging deep learning models to incorporate structural and biological insights. The approach has promising applications in the field of antibody engineering and therapeutic development."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Artificial Intelligence",
+      "level": "Expert",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning (NLP, CV, LLMs)",
+        "PINN (Physics-Informed Neural Networks)",
+        "Pretraining & Fine-tune",
+        "Neural ODE",
+        "Reinforcement Learning",
+        "Bayesian Optimization",
+        "Data Design and Analysis",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Modeling and Prediction",
+        "Time Series Analysis",
+        "Classification Algorithms"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C++",
+        "MySQL",
+        "Flask",
+        "Redis",
+        "Git",
+        "Linux",
+        "Numpy",
+        "Pandas",
+        "Scikit-learn",
+        "PyTorch",
+        "Transformers"
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "level": "Expert",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Antibody Design",
+        "Bioprocess Development",
+        "Molecular Generation",
+        "Chemical Entity Recognition",
+        "Drug Formulation Modeling"
+      ]
+    },
+    {
+      "name": "Project Management & Collaboration",
+      "level": "Advanced",
+      "icon": "fa-solid fa-handshake",
+      "keywords": [
+        "Cross-Department Collaboration",
+        "AI Problem Solving",
+        "Innovation in Drug Discovery",
+        "Business-oriented Product Thinking",
+        "Team Leadership"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -161,40 +172,30 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Molecular Generation Model based on Transformer",
+      "summary": "Constructed a Transformer model for chemical reaction retro-synthesis data sets, predicting possible reactants for a given product. This project explored the applicability of large-scale NLP models to molecular synthesis tasks.",
+      "highlights": ["Optimized TensorFlow code for faster convergence", "Explored new business routes for molecular synthesis tasks"],
+      "startDate": "2018-12-01",
+      "endDate": "2019-03-01",
+      "url": "https://github.com/deepbiolab/retrosynthesis-transformer"
+    },
+    {
+      "name": "Bayesian Optimization-based Medium Component Search",
+      "summary": "Aimed to optimize cell culture efficiency and quality by using Bayesian optimization to search for the best medium component combination. The project significantly reduced search time and costs compared to traditional methods.",
+      "highlights": ["Surpassed commercial culture media in only three iterations", "Applied Bayesian optimization to improve cell growth and metabolism"],
+      "startDate": "2021-07-01",
+      "endDate": "2022-12-01",
+      "url": "https://github.com/deepbiolab/aimd"
+    },
+    {
+      "name": "Hybrid Model for Bioprocess Using Physics-Informed Neural Networks",
+      "summary": "Developed hybrid models using Physics-Informed Neural Networks (PINN) to estimate time-varying kinetic parameters in bioprocesses. Combined kinetic structures with neural networks to improve temporal simulation tasks.",
+      "highlights": ["Achieved high accuracy in parameter identification and trajectory simulation", "Improved bioprocess modeling accuracy with a mean absolute error of 1%"],
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "url": "https://github.com/deepbiolab/diffbio"
     }
   ]
 }
