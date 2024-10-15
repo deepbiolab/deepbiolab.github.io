@@ -1,8 +1,8 @@
-# DeepBioLab
+# [DeepBioLab](https://deepbiolab.ai)
 
 ![logo](assets/img/logo-name.svg)
 
-**DeepBioLab** is an interactive platform designed for AI enthusiasts, researchers, and developers working at the intersection of artificial intelligence and biological sciences. The website provides a collaborative space to explore and dive into cutting-edge AI algorithms, including deep learning, machine learning, reinforcement learning, and their applications in biology and other scientific domains.
+**[deepbiolab.ai](https://deepbiolab.ai)** is an interactive platform designed for AI enthusiasts, researchers, and developers working at the intersection of artificial intelligence and biological sciences. The website provides a collaborative space to explore and dive into cutting-edge AI algorithms, including deep learning, machine learning, reinforcement learning, and their applications in biology and other scientific domains.
 
 ## Key Features
 
