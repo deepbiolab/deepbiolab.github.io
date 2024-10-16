@@ -8,13 +8,13 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        <img src="{{ 'assets/img/logo-name.svg' | relative_url }}" alt="DeepBioLab Logo" style="height: auto; max-width: 100%; vertical-align: middle;">
+        <img src="{{ 'assets/img/logo-name.svg' | relative_url }}" alt="DeepBioLab Logo" style="height: 100px; max-width: 100%;  display: block; margin-left: 0;">
         {% comment %}
         {{ site.title }}
         {% endcomment %}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc">{{ page.subtitle }} </p>
   </header>
 
   <article>
