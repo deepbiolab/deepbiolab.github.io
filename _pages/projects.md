@@ -11,7 +11,7 @@ display_description: [Implementing and testing various AI and biological models 
                       Exploring open-source or innovative projects, 
                       Conducting experiments to test hypotheses or new methodologies in AI and biological processes, 
                       Developing and refining utility tools for productivity enhancement]
-background_image: projects_background_image.jpg
+background_image: assets/img/projects_background_image.jpg
 horizontal: false
 ---
 

@@ -12,7 +12,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
-    <img src="{{ site.baseurl }}/assets/img/{{ page.background_image }}" alt="Projects Image" class="projects-img">
+    {% if page.background_image %}
+      <img src="{{ site.baseurl }}/{{ page.background_image }}" alt="Projects Image" class="projects-img">
+    {% endif %}
   </header>
 
   <article>

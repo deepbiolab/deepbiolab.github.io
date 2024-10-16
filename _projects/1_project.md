@@ -6,6 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: Prototypes
 related_publications: true
+background_image: assets/img/12.jpg
 ---
 
 Every project has a beautiful feature showcase page.

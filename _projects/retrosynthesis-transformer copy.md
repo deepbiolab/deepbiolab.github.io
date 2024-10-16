@@ -6,6 +6,7 @@ img: assets/img/projects/retrosynthesis-transformer.ppm
 importance: 1
 category: Prototypes
 related_publications: false
+background_image: 
 ---
 
 Every project has a beautiful feature showcase page.
