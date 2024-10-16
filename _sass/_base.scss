@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 :root {
-  --global-font-family: "Helvetica Neue","Helvetica", "Roboto", sans-serif; /* 你可以选择其他字体，如 "Montserrat", sans-serif */
+  --global-font-family: "Google Sans", "Helvetica Neue","Helvetica", "Roboto", sans-serif; /* 你可以选择其他字体，如 "Montserrat", sans-serif */
 }
 
 body {
@@ -640,6 +640,40 @@ footer.sticky-bottom {
 }
 
 // Projects
+.post-header {
+  text-align: center; /* 使标题、图片和描述居中 */
+  margin-bottom: 2rem; /* 添加底部间距 */
+}
+
+.projects-img {
+  max-width: 100%; /* 确保图片不会超出容器的宽度 */
+  height: auto; /* 保持图片的宽高比 */
+  margin: 1rem 0; /* 添加上下间距 */
+  border-radius: 8px; /* 为图片添加圆角效果（可选） */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果（可选） */
+}
+
+.post-title {
+  font-size: 2.5rem; /* 根据需要调整字体大小 */
+  margin-bottom: 1rem; /* 添加与图片之间的间距 */
+}
+
+.post-description {
+  font-size: 1rem; /* 设置描述的字体大小 */
+  color: var(--global-text-color-muted); /* 设置描述的字体颜色 */
+  margin-bottom: 0.5rem; /* 添加底部间距 */
+}
+
+
+.category-description {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+  text-align: center;
+}
+
 
 .projects {
   a {
@@ -653,8 +687,46 @@ footer.sticky-bottom {
   }
 
   .card {
+    width: 100%;
+    max-width: 300px; /* Set a max-width for uniformity */
+    height: 400px; /* Set a fixed height to ensure consistency */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--global-card-bg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content stays within the card */
+
     img {
       width: 100%;
+      height: 200px; /* Ensure consistent image height */
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+      flex-grow: 1; /* Allow body to fill remaining space */
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: var(--global-text-color-muted);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      margin-top: auto; /* Push footer to the bottom */
+      padding-top: 1rem;
+      text-align: right;
     }
   }
 
@@ -662,21 +734,70 @@ footer.sticky-bottom {
     padding-bottom: 1rem;
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+  .row-cols-1, .row-cols-md-2, .row-cols-md-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .row-cols-md-3 .col {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-hover-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
   }
 }
+
+.jump-links-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto; /* 在页面上水平居中且设置顶部和底部间距 */
+  position: sticky; /* 使整个链接容器在页面滚动时固定 */
+  top: 65px; /* 设置top值，避免和导航栏重叠 */
+  z-index: 10; /* 保持较低的z-index，确保导航栏在其上方 */
+}
+
+.jump-links {
+  display: inline-flex; /* 改为 inline-flex，使宽度自适应内容 */
+  align-items: center;
+  padding: 0.5rem 1rem; /* 调整内边距以使整体紧凑 */
+  background-color: var(--global-card-bg-color);
+  border-radius: 30px; /* 保留圆角效果 */
+  border: 1px solid rgba(32,33,36,.04); /* 添加更明显的边框 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影效果，使其更加立体 */
+}
+
+.jump-links a {
+  margin: 0 0.5rem; /* 减少每个链接之间的边距 */
+  text-decoration: none;
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 5px 10px; /* 控制每个链接的内边距，让其保持紧凑 */
+  border-radius: 20px; /* 为每个链接添加圆角效果 */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* 添加平滑过渡效果 */
+
+  &:hover {
+    background-color: var(--global-theme-color); /* 鼠标悬停时更改背景色 */
+    color: white; /* 更改文本颜色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 鼠标悬停时添加更深的阴影效果 */
+  }
+}
+
+.jump-links a.active {
+  background-color: var(--global-theme-color); /* 激活状态下的背景色 */
+  color: white; /* 激活状态下的文字颜色 */
+}
+
 
 // Publications
 

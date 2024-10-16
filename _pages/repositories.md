@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: A curated list of my GitHub repositories, showcasing projects and contributions that highlight my ongoing work in AI, machine learning, and biology.
-nav: true
+nav: false
 nav_order: 4
 ---
 
