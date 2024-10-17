@@ -10,8 +10,10 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: about_video.gif
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <a href="https://www.pexels.com/video/an-artist-s-illustration-of-artificial-intelligence-ai-this-video-explores-how-ai-can-be-used-advance-biology-and-protein-folding-it-was-created-by-twistedpoly-as-part-of-the-visualisi-25935021/">Video by Google DeepMind from Pexels</a>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

@@ -25,7 +25,8 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <p>{{ site.blog_description }}</p>
+    <img src="{{ site.baseurl }}/{{ site.blog_background_image }}" alt="Blog background Image" class="blog-background-img">
   </div>
   {% endif %}
 

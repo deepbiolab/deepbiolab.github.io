@@ -131,8 +131,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: DeepBioLab # blog_name will be displayed in your blog page
+blog_name: Blog # blog_name will be displayed in your blog page
 blog_description: "Dive into AI algorithms | Build from scratch | Discover science problems"
+blog_background_image: assets/img/blog_background_dark.png
 permalink: /blog/:year/:title/
 lsi: true # produce an index for related posts
 

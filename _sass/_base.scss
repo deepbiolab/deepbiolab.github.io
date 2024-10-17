@@ -210,8 +210,9 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
-
+    // font-family: monospace;
+    font-size: 0.7rem; /* 修改字号，可以根据需要调整大小 */
+    text-align: center; /* 使内容居中显示 */
     p {
       display: inline-block;
       margin: 0;
@@ -524,16 +525,26 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  // padding-top: 2rem;
+  padding-bottom: 0.5rem;
 
   h1 {
-    color: var(--global-theme-color);
-    font-size: 3rem;
+    // color: var(--global-theme-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem; /* 添加与图片之间的间距 */
   }
   h2 {
-    font-size: 24px !important;
+    font-size: 1rem !important;
+    color: var(--global-text-color-muted); /* 设置描述的字体颜色 */
+    margin-bottom: 0.5rem; /* 添加底部间距 */
   }
+}
+
+.blog-background-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* 图片在横向居中对齐 */
+  display: block; /* 确保图片是块级元素，可以控制布局 */
 }
 
 .tag-category-list {
@@ -551,10 +562,10 @@ footer.sticky-bottom {
       display: inline-block;
       padding: 0rem 0.5rem;
       color: var(--global-text-color-light);
-      // background-color: silver;
+      background-color: var(--global-tag-category-color); /* TODO */
       border: 5px;
       line-height: 1.2em;
-      // border-radius: 5px; /* 添加圆角效果 */
+      border-radius: 5px; /* 添加圆角效果 */
     }
   }
 }

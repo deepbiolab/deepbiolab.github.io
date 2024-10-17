@@ -16,7 +16,4 @@
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-{% if site.newsletter.enabled and site.footer_fixed %}
-  <p class="mb-2" style="margin-top: 1.5rem !important; text-align: center;">Join others in exploring AI, biology, and cutting-edge research updates.</p>
-  {% include scripts/newsletter.liquid center=true %}
-{% endif %}
+
