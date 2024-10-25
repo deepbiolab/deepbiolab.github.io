@@ -6,7 +6,7 @@ title: DeepBioLab # the website title (if blank, full name will be used instead)
 first_name: Tim
 middle_name: 
 last_name: Lin
-email: lin_xiangtian@deepbiolab.ai
+email: tim-lin@deepbiolab.ai
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Deep learning and bioinformatics research projects and portfolio site.
 footer_text: >
